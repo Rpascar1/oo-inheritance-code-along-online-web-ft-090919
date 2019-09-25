@@ -5,9 +5,9 @@ class Car
   attr_accessor
   @@all = []
   
-  def initialize(wheel_size,number)
+  def initialize(wheel_size,wheel_number)
     @wheel_size = wheel_size
-    @Wheel_number = number
+    @wheel_number = number
     @@all << self
   end
   
