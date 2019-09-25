@@ -9,9 +9,15 @@ class Car
     @wheel_size = wheel_size
     @Wheel_number = number
     @@all << self
-    @go = ""
   end
   
+  def go 
+     "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+  end
   
-  
+  def fill_up_tank
+    "filling up!"
+  end
+
+
 end
