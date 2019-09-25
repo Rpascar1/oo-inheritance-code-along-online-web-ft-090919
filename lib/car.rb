@@ -21,6 +21,8 @@ class Vehicle
 
 class Car < Vehicle
   
+  def initialize()
+  
   def go 
   "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
   end
