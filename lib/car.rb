@@ -18,10 +18,9 @@ class Vehicle
   def fill_up_tank
     "filling up!"
   end
+end
 
 class Car < Vehicle
-  
-  
   
   def go 
   "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
